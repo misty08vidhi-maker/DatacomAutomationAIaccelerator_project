@@ -1,0 +1,65 @@
+DEBUG LOG – Datacom AI Accelerator
+
+Project Overview
+
+This log documents the key AI prompts used during the development, debugging, refactoring and testing of the Python data-processing project.
+
+1. Understanding the Existing Code
+
+Prompt:
+"Explain this Python project step by step. Describe the purpose of each function, how customer and transaction data are loaded and processed, and how reports are generated. Identify the main execution flow."
+
+Purpose:
+To understand the existing code structure and functionality before making changes.
+
+2. Diagnosing the Reported Error
+
+Prompt:
+"Analyze the error log and inspect the data-exporting functionality. Identify the likely cause of the reported error, explain why it occurs, and suggest a reliable fix. Do not assume the root cause without checking the actual data types and code."
+
+Purpose:
+To investigate the customer-data export error and identify the source of the problem.
+
+3. Debugging and Validation
+
+Prompt:
+"Add temporary diagnostic checks to inspect the type and structure of customer data before exporting it. Check whether the expected dictionary methods are available and help identify where the error occurs."
+
+Purpose:
+To inspect runtime data and validate the suspected cause of the error.
+
+4. Performance Refactoring
+
+Prompt:
+"Review the transaction-processing function for inefficient nested loops. Where appropriate, replace repeated searches with dictionary-based lookups to improve performance. Preserve the existing output and handle unmatched customer IDs safely. Explain the changes."
+
+Purpose:
+To explore a more efficient approach to transaction processing.
+
+5. Unit Test Development
+
+Prompt:
+"Create comprehensive unit tests for the DataProcessor class using Python's unittest framework. Cover normal functionality, valid and invalid input data, missing files, transaction processing, customer metrics, report generation and CSV/JSON exports. Use temporary files where appropriate."
+
+Purpose:
+To test the application's functionality and error-handling behaviour.
+
+6. Test Execution and Verification
+
+Prompt:
+"Review the unit-test results, identify any failures, explain their causes and suggest corrections without changing expected application behaviour."
+
+Purpose:
+To validate the implementation and improve test reliability.
+
+7. Final Code Review
+
+Prompt:
+"Review the final Python implementation for correctness, readability, error handling and consistency. Check that the application runs successfully and that the unit tests cover the important functionality."
+
+Purpose:
+To perform a final quality review before submission.
+
+Summary
+
+AI assistance was used as a development aid for code understanding, debugging, performance improvement, test creation and code review. Changes were checked against the project's implementation and test results.
