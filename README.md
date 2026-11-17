@@ -1,0 +1,2 @@
+# DatacomAutomationAIaccelerator_project
+Internship PROJECT-DEBUG_LOG.md
